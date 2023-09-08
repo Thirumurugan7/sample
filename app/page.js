@@ -53,7 +53,6 @@ useEffect(()=>{
   }
   balancebro();
 },[contract])
-  
 
   function onchangevalue(e){
      const {name, value} = e.target;
